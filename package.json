@@ -1,0 +1,17 @@
+{
+  "name": "caleoscopie",
+  "version": "1.0.0",
+  "scripts": {
+    "install": "npm install --prefix client_web_app/ && npm install --prefix server_app/",
+    "app": "npm run run --prefix client_web_app/ & npm run websocket-serialport --prefix server_app/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azertypow/p5js_arduino_serialport.git"
+  },
+  "author": "azertypow",
+  "bugs": {
+    "url": "https://github.com/azertypow/p5js_arduino_serialport/issues"
+  },
+  "homepage": "https://github.com/azertypow/p5js_arduino_serialport#readme"
+}
